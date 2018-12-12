@@ -15,7 +15,9 @@
     for (i=0; i<array.length; i++){
         first = array[i][0];
         last = array[i][array[i].length-1];
-        console.log("Sum: "+ (first+last))
+        middle = array[i][Math.floor(array[i].length/2)];
+
+        console.log("Sum: "+ (first+last+middle));
     }
 
 </script>
